@@ -1,0 +1,30 @@
+.app {
+  text-align: center;
+  cursor: default;
+}
+
+.app-header > #logo {
+  border: 3px #fff solid;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  line-height: 100px;
+  font-size: 38px;
+  letter-spacing: 12px;
+  text-indent: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.app-header {
+  background-color: #444;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.app-intro {
+  font-size: large;
+  color: #000;
+}
