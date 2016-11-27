@@ -40,3 +40,10 @@
 	background-size: 32px;
 	background-position: 12px;
 }
+
+#links .github {
+	background-image: url('assets/github.png');
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: 10px;
+}

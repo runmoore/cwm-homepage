@@ -19,6 +19,10 @@ class Links extends Component {
 			name: "linkedin",
 			link: "https://uk.linkedin.com/in/christopherwesleymoore",
 		},
+		{
+			name: "github",
+			link: "https://github.com/runmoore",
+		},
 		];
 		
 	}
