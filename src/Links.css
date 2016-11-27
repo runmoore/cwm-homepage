@@ -12,9 +12,15 @@
 	border-radius: 50%;
 	color: #666;
 	text-decoration: none;
+	background-color: #ccc;
 }
 
 #links > a:hover {
 	background-color: #444;
 	color: #fff;
+}
+
+
+#links .twitter {
+	background-image: url('assets/twitter.svg');
 }
