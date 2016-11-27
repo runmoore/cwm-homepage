@@ -8,11 +8,10 @@
 	line-height: 50px;
 	display: inline-block;
 	margin: 10px;
-  	border: 1px #666 solid;
 	border-radius: 50%;
 	color: #666;
 	text-decoration: none;
-	background-color: #ccc;
+	background-color: #999;
 }
 
 #links > a:hover {
@@ -23,4 +22,18 @@
 
 #links .twitter {
 	background-image: url('assets/twitter.svg');
+}
+
+#links .instagram {
+	background-image: url('assets/instagram-white.png');
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: 10px;
+}
+
+#links .linkedin {
+	background-image: url('assets/linkedin.png');
+	background-repeat: no-repeat;
+	background-size: 32px;
+	background-position: 12px;
 }

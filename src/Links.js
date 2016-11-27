@@ -12,11 +12,11 @@ class Links extends Component {
 			link: "https://twitter.com/runmoore",
 		},
 		{
-			name: "Instagram",
+			name: "instagram",
 			link: "https://www.instagram.com/runmoore",
 		},
 		{
-			name: "LinkedIn",
+			name: "linkedin",
 			link: "https://uk.linkedin.com/in/christopherwesleymoore",
 		},
 		];
