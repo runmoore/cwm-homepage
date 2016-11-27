@@ -16,7 +16,13 @@ class Links extends Component {
 			name: "Instagram",
 			link: "https://www.instagram.com/runmoore",
 			label: "I"
-		}];
+		},
+		{
+			name: "LinkedIn",
+			link: "https://uk.linkedin.com/in/christopherwesleymoore",
+			label: "L"
+		},
+		];
 		
 	}
 
