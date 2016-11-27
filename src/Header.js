@@ -8,7 +8,6 @@ class Header extends Component {
         super(props);
         this.name = "Christopher Moore";
         this.initials = "CM";
-        this.intro = "London based Software Engineer";
     }
 
     render(){
@@ -16,7 +15,6 @@ class Header extends Component {
             <div className="app-header">
                 <div id="logo">{ this.initials }</div>
                 <h2>{ this.name }</h2>
-                <p className="app-intro">{ this.intro }</p>
             </div>
         )
     }

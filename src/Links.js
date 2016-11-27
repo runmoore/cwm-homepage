@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-
 import './Links.css';
-
 
 class Links extends Component {
 
@@ -31,7 +29,7 @@ class Links extends Component {
     	var links = [];
     	for (var i = 0; i< this.links.length; i++){
     		links.push(
-    			<a key={i} className={this.links[i].name} href={this.links[i].link}></a>
+    			<a key={i} className={this.links[i].name} href={this.links[i].link} target="_blank"></a>
     		);
     	}
 
