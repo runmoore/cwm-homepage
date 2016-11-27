@@ -1,21 +1,17 @@
 import React, { Component } from 'react';
+import Header from './Header';
+import Links from './Links';
+
 import './App.css';
 
 class App extends Component {
-
-    render 
-
+    
     render() {
 
         return (
             <div className="app">
-                <div className="app-header">
-                    <div id="logo">CM</div>
-                    <h2>Christopher Moore</h2>
-                    <p className="app-intro">
-                        London based Software Engineer
-                    </p>
-                </div>
+                <Header />
+                <Links />
             </div>
         );
     }
