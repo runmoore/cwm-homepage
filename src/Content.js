@@ -9,7 +9,12 @@ class Content extends Component {
 	}
 
 	render (){
-		return <p className="app-intro">{ this.intro }</p>
+		return (
+			<div>
+				<p className="app-intro">{ this.intro }</p>
+				<code>puevfzbber@bhgybbx.pbz 13</code>
+			</div>
+		)
 	}
 }
 

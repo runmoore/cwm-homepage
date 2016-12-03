@@ -13,7 +13,7 @@ class Header extends Component {
     render(){
         return (
             <div className="app-header">
-                <div id="logo">{ this.initials }</div>
+                <div id="logo" className="no-spin">{ this.initials }</div>
                 <h2>{ this.name }</h2>
             </div>
         )
