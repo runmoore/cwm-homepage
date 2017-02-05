@@ -6,20 +6,24 @@ class Links extends Component {
 	constructor(props){
 		super(props);
 		this.links = [{
-			name: "twitter",
+			name: "fa fa-twitter",
 			link: "https://twitter.com/runmoore",
 		},
 		{
-			name: "instagram",
+			name: "fa fa-instagram",
 			link: "https://www.instagram.com/runmoore",
 		},
 		{
-			name: "linkedin",
+			name: "fa fa-linkedin-square",
 			link: "https://uk.linkedin.com/in/christopherwesleymoore",
 		},
 		{
-			name: "github",
+			name: "fa fa-github",
 			link: "https://github.com/runmoore",
+		},
+		{
+			name: "fa fa-stack-overflow",
+			link: "http://stackoverflow.com/users/6806381/christopher-moore",
 		},
 		];
 		
@@ -27,11 +31,10 @@ class Links extends Component {
 
     render(){
     	var links = [];
-    	for (var i = 0; i< this.links.length; i++){
+    	this.links.forEach((link, i) =>     	
     		links.push(
-    			<a key={i} className={this.links[i].name} href={this.links[i].link} target="_blank"></a>
-    		);
-    	}
+    			<a key={i} className={link.name}  href={link.link} target="_blank" aria-hidden="true" ></a>
+    		));
 
         return (
             <div id="links">

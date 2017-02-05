@@ -9,41 +9,13 @@
 	display: inline-block;
 	margin: 10px;
 	border-radius: 50%;
-	color: #666;
+	color: #fff;
 	text-decoration: none;
 	background-color: #999;
+	font-size: 25px;
 }
 
 #links > a:hover {
 	background-color: #444;
 	color: #fff;
-}
-
-
-#links .twitter {
-	background-image: url('assets/twitter.png');
-	background-repeat: no-repeat;
-	background-size: 30px;
-	background-position: 10px;
-}
-
-#links .instagram {
-	background-image: url('assets/instagram-white.png');
-	background-repeat: no-repeat;
-	background-size: 30px;
-	background-position: 10px;
-}
-
-#links .linkedin {
-	background-image: url('assets/linkedin.png');
-	background-repeat: no-repeat;
-	background-size: 32px;
-	background-position: 12px;
-}
-
-#links .github {
-	background-image: url('assets/github.png');
-	background-repeat: no-repeat;
-	background-size: 30px;
-	background-position: 10px;
 }
