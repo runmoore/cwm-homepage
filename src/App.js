@@ -6,17 +6,15 @@ import Content from './Content';
 import './App.css';
 
 class App extends Component {
-    
-    render() {
-
-        return (
-            <div className="app">
-                <Header />
-                <Content />
-                <Links />
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div className="app">
+        <Header />
+        <Content />
+        <Links />
+      </div>
+    );
+  }
 }
 
 export default App;
