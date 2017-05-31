@@ -34,18 +34,15 @@ class Links extends Component {
   }
 
   render() {
-    const links = [];
-    this.links.forEach(link =>
-      links.push(
-        <a key={link.id} href={link.link} target="_blank" rel="noopener noreferrer">
-          <span className={link.name} aria-hidden="true" />
-        </a>,
-      ),
+    const links = this.links.map(link =>
+      <a key={link.id} href={link.link} target="_blank" rel="noopener noreferrer">
+        <span className={link.name} aria-hidden="true" />
+      </a>,
     );
 
     return (
       <div id="links">
-        { links }
+        {links}
       </div>
     );
   }
